@@ -9,8 +9,8 @@ public class homework1num2{
         int d = in.nextInt();
         int n = in.nextInt();
 
-        a = a*n;
-        d = d*n;
+        a = a * n;
+        d = d * n;
         if(d > 100)
         {
             while(d>99)

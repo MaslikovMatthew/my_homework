@@ -20,6 +20,5 @@ public class homework1num2{
             }
         }
         System.out.println(a +" "+ d);
-
     }
 }

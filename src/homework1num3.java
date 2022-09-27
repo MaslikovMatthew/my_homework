@@ -22,9 +22,9 @@ public class homework1num3{
             h++;
             m -= 60;
         }
-        while(h>23){h-=24;}
-        if(m<10){mm = "0"+m;} else{mm = m+"";}
-        if(10 > a){ss="0" + a;} else{ss = a+"";}
+        while(h > 23){h -= 24;}
+        if(m < 10){mm = "0" + m;} else{mm = m + "";}
+        if(10 > a){ss="0" + a;} else{ss = a + "";}
         System.out.println(h+":"+mm+":"+ss);
 
     }

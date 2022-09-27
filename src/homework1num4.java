@@ -6,6 +6,6 @@ public class homework1num4 {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
         var a = Float.parseFloat(str);
-        System.out.println((a < -2) || (a > 3 && a < 6) || (a > 9));
+        System.out.println((a < -2)||(a > 3 && a < 6)||(a > 9));
     }
 }

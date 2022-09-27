@@ -13,7 +13,6 @@ public class homework1num1{
             case 1:
                 System.out.println(a + 1);
                 break;
-
         }
     }
 }

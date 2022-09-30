@@ -27,7 +27,7 @@ public class homework2num2 {
             }
             if (t_en > 69) {
                 c += t_en / 70;
-                t_en %= 70;
+                t_en%= 70;
             }
         }
         System.out.println(N + " Month\nWolves: " + c + "\nRabbits: " + b + "\n");

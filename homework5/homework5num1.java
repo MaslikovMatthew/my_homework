@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class homework5num1 {
-    static void printArray(int[][] a) {
+public class homework5num1{
+    static void printArray(int[][] a){
         for (int[] ints : a) {
             for (int anInt : ints) {
                 System.out.print(anInt + " \t ");
@@ -9,7 +9,7 @@ public class homework5num1 {
             System.out.println();
         }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int k = in.nextInt();
